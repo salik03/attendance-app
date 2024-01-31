@@ -161,6 +161,7 @@ export const Home = () => {
               style={{ width: "100%" }}
               onError={handleError}
               onScan={handleScan}
+              facingMode={'environment'}
             />
           )}
         </div>
